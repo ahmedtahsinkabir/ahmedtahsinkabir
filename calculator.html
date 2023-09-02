@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <input type="text" id="result" value="0" disabled /><br /><br />
+    <button onclick="addToResult(1)">1</button>
+    <button onclick="addToResult(2)">2</button>
+    <button onclick="addToResult(3)">3</button>
+    <button onclick="addToResult('+')">+</button><br />
+
+    <button onclick="addToResult(4)">4</button>
+    <button onclick="addToResult(5)">5</button>
+    <button onclick="addToResult(6)">6</button>
+    <button onclick="addToResult('-')">-</button><br />
+
+    <button onclick="addToResult(7)">7</button>
+    <button onclick="addToResult(8)">8</button>
+    <button onclick="addToResult(9)">9</button>
+    <button onclick="addToResult('*')">*</button><br />
+
+    <button onclick="addToResult(0)">0</button>
+    <button onclick="addToResult('.')">.</button>
+    <button onclick="calculateResult()">=</button>
+    <button onclick="addToResult('/')">/</button><br />
+
+    <button onclick="clearResult()">Clear</button>
+    <script>
+      let result = document.getElementById("result");
+      let calculation = "";
+
+      function addToResult(value) {
+        calculation += value;
+        result.value = calculation;
+      }
+
+      function calculateResult() {
+        result.value = eval(calculation);
+      }
+
+      function clearResult() {
+        calculation = "";
+        result.value = "0";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+* {
+  background-color: black;
+}
+#gray {
+  color: #a9a9a96b;
+  font-size: 17px;
+}
+#red {
+  color: crimson;
+  font-size: 17px;
+}
+div {
+  margin-left: 280px;
+  margin-right: 280px;
+}
+h2 {
+  color: rgb(216, 213, 14);
+  font-size: 26px;
+  font-family: sans-serif;
+}
+#white {
+  color: azure;
+  font-size: 17px;
+}
+#glow {
+  font-weight: bolder;
+}
+#blue {
+  color: cornflowerblue;
+  font-size: 17px;
+}
+a :hover {
+  color: aquamarine;
+}
+#pad {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
