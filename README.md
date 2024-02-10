@@ -5,6 +5,7 @@
 -    -  🌱 console.log(`I’m currently learning JAVASCRIPT.`);
 -
 -    -    -  💞️ <p style="color: cyan">I know the basic of HTML and CSS</p>
+
 -    -    🌱 input('Trying Python too...')
 -
 - let mail = 'ahmedtahsinkabir@gmail.com';
